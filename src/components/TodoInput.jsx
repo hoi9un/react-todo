@@ -16,7 +16,7 @@ export default function TodoInput({ onTodoAdd }) {
   return (
     <>
       <input type="text" value={inputText} onChange={handleInputTextChange} />
-      <button onClick={() => handleAddClick()}>추가</button>
+      <button onClick={handleAddClick}>추가</button>
     </>
   )
 }
